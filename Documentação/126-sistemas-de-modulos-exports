@@ -1,0 +1,4 @@
+Detalhe
+    : this, exports e module.exports são referências para module.exports.
+    : Por isso, somente ele será retornado
+    : Por isso que quando queremos retornar um objeto, usamos module.exports.
