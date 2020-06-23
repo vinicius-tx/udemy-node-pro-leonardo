@@ -1,0 +1,32 @@
+package-json
+    : Arquivo descritor de um projeto em Node.
+    :Descreve o seu projeto e a descrição de todas as dependências que seu projeto precisa
+
+npm init 
+    :Vai habilitar tipo um wizard pra você definir como vai ser seu arquivo package.json.
+
+npm init -y
+    :Cria o arquivo com ele respondendo sim para todas as perguntas.
+
+pwd
+    :Indica a pasta que você está
+
+npm i --save + dependencia
+    :Além de instalar ele vai criar uma área pra colocar as dependêndias do seu projeto.
+
+npm i --save-dev nome@versão
+    :--save-dev 
+        :Uma dependência que só é necessária em desenvolvimento.
+    :nome
+        :nome Da dependência
+    :versão
+        :versão da dependencia
+
+"axios": "^0.19.2"
+    :^0.19.2
+        :Indica que a primeira parta de versão não pode ser mudada, mas o meio sim.
+    
+    :~0.19.2
+        :Indica que o último apenas número pode ser mudado
+    :0.19.2
+        : Indica que tem de ser a versão exata
