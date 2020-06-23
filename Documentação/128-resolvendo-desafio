@@ -1,0 +1,2 @@
+reduce(itemDeComparação, itemAtual)
+    : Compara dois itens e retorna um determinado tipo.
