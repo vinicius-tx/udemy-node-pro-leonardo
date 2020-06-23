@@ -5,9 +5,11 @@ axios.get(url).then(response =>{
     const data = response.data
     let pessoa = data
         .filter(pessoa=> pessoa.genero == 'F' && pessoa.pais == 'China')
-            .sort((a, b) => {
-                a.salario > b.salario
-             })[0]
+            .reduce((funcionario, funcionarioAtual) => 
+                funcionario.salario < funcionarioAtual.salario ? funcionario : funcionarioAtual
+            )
+
+    
     
     console.log(pessoa)
 })
