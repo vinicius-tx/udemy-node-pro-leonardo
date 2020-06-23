@@ -13,3 +13,6 @@ npm i
 
 require('loadash')
     : Quando você faz esse tipo de importação ele vai procurar o loadash dentro de node_modules
+
+npm i -g
+    : Instala módulos de forma global no seu computador que você pode usar através do terminal.
