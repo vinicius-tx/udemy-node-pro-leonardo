@@ -10,3 +10,14 @@ Módulo
     :Módulo tem um interioridade. O que você escreve dentro dele não é disponível para outros arquivos.
     :Idéia de exportar algo e importar algo em outro arquivo.
     :Padrão commonsJs e padrão Ecmascript 2015
+
+Exportando
+    :this.atributo
+    :exports.atributo
+    :module.exports.atributo
+
+Importando arquivos
+    :Não precisa colocar a extensão .js
+
+Require
+    :Importa um módulo usando o arquivos de módulos do node, commonsJs. require(caminhoRelativo)
