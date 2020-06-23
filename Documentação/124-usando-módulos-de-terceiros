@@ -10,3 +10,6 @@ node -v
 
 npm i
     :Faz a instalação de pacotes para você. Instalado o loadash.
+
+require('loadash')
+    : Quando você faz esse tipo de importação ele vai procurar o loadash dentro de node_modules
