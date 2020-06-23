@@ -1,0 +1,12 @@
+NPM
+    :Node Packager Manager
+    :Gerenciador de bibliotecas do Node
+
+npm -v
+    :Mostra a versão da npm
+
+node -v
+    :Mostra a versão do Node
+
+npm i
+    :Faz a instalação de pacotes para você. Instalado o loadash.
